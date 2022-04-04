@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'sf-desc', sans-serif;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+@font-face {
+    font-family: 'sf-desc';
+    src: url(fonts/SanFranciscoDisplay-Light.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'sf-title';
+    src: url(fonts/SanFranciscoDisplay-Bold.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+h2 {
+    font-weight: 100;
+    font-family: sf-title;
+}
+h3 {
+    font-family: sf-desc;
+    font-weight: 100;
+}
+nav {
+    
+    background-color: #313132;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+    margin-left: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 45px;
+    color: #C3C3C5;
+    font-size: 13px;
+    line-height: 44px;
+    
+}
+nav ul li:hover {
+    background-color: black;
+    transition-duration: .5s;
+}
+nav ul a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.homepage-section-one {
+    background-color: #f5f5f7;
+    height: 72px;;
+}
+
+.iphone-hero {
+    background-image: url('assets/images/iphone13hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70%;
+    width: 100%;
+    z-index: 1;
+    padding-top: 2.5%;
+}
+
+.headline {
+    font-size: 56px;
+    display: grid;
+    justify-content: center;
+}
+.subhead {
+    font-size: 28px;
+    display: grid;
+    justify-content: center;
+}
+.cta-links {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+.cta-links a {
+    margin-right: 40px;
+    color: #0B6DCE;
+    text-decoration: none;
+    font-size: 23px;
+}
+.logo {
+    width: 1.6rem;
+    height: 4.4rem;
+    margin-right: 20px;
+}
+.s {
+    margin-right: 40px;
+}
+.top-text {
+    text-align: center;
+    padding-top: 25px;
+    color: #0B6DCE;
+    display: flex;
+    justify-content: center;
+}
+.uni-logo {
+    height: 30px;
+    width: auto;
+}
+.uni {
+    margin-right: 1%;
+    margin-top: -5px;
+}
+.homepage-section-two {
+    background-image: url('assets/images/iphonesehero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70%;
+    width: 100%;
+    padding-top: 2.5%;
+}
+.homepage-section-two h3 {
+    text-align: center;
+}
+.iphonese-cont {
+    display: flex;
+    justify-content: center;
+}
+.iphonese-img {
+    height: auto;
+    width: 225px;
+}
+.donate-link {
+    color: #0B6DCE;
+    text-decoration: none;
+}
+.homepage-section-three {
+    background-image: url('assets/images/watch.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 70%;
+    width: 100%;
+    padding-top: 2.5%;
+}
+.homepage-section-three h3 {
+    text-align: center;
+}
+.watch-cont {
+    display: flex;
+    justify-content: center;
+}
+.watch-img {
+    height: auto;
+    width: 180px;
+}
+.homepage-section-four {
+    background-image: url('assets/images/ipadair.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.homepage-section-five {
+    background-image: url('assets/images/iphone13.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 89%;
+    width: 100%;
+}
+.homepage-section-six {
+    background-image: url('assets/images/imac.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 89%;
+    width: 100%;
+}
+.homepage-section-seven {
+    background-image: url('assets/images/macMini.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 89%;
+    width: 100%;
+}
+
+footer {
+    background-color: #f5f5f7;
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+}
+footer p {
+    text-align: center;
+}
+/* footer ul {
+    display: flex;
+    justify-content: center;
+} */
+footer ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-top: 3%;
+}

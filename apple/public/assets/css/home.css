@@ -1,0 +1,57 @@
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 624px; /* Should be removed. Only for demonstration */
+}
+.ipad-img {
+    height: auto;
+    width: 150px;
+    padding-top: 6.5%;
+}
+.ipad-cont {
+    display: flex;
+    justify-content: center;
+}
+.ipad-text {
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+}
+.iphone-text {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.cta-links-iphone {
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+}
+.cta-links-iphone a {
+    margin-right: 40px;
+    color: #0B6DCE;
+    text-decoration: none;
+    font-size: 23px;
+}
+.footer-cont {
+    display: flex;
+    width: fit-content;
+    padding-left: 7.5%;
+}
+.footer-col {
+    flex: 50%;
+    padding: 10px;
+    height: 315px; 
+}
+.footer-link {
+    padding-top: 2.5%;
+    padding-left: 9.9%;
+}
+.footer-link a {
+    color: #0B6DCE;
+    text-decoration: none;
+}
