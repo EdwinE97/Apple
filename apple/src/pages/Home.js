@@ -19,8 +19,8 @@ function Home() {
                     <h2 className="headline">iPhone 13 Pro</h2>
                     <h3 className="subhead">Oh. So. Pro.</h3>
                     <div className="cta-links">
-                        <a href="/">Learn more ></a>
-                        <a href="/">Buy ></a>
+                        <a href="/">Learn more </a>
+                        <a href="/">Buy </a>
                     </div>
                 </div>
             </section>
@@ -32,8 +32,8 @@ function Home() {
                 </div>
                 <h3>Love the power. Love the price.</h3>
                 <div className="cta-links">
-                    <a href="/">Learn more ></a>
-                    <a href="/">Buy ></a>
+                    <a href="/">Learn more </a>
+                    <a href="/">Buy </a>
                 </div>
             </section>
 
@@ -43,8 +43,8 @@ function Home() {
                 </div>
                 <h3>It's our largest display yet.</h3>
                 <div className="cta-links">
-                    <a href="/">Learn more ></a>
-                    <a href="/">Buy ></a>
+                    <a href="/">Learn more </a>
+                    <a href="/">Buy </a>
                 </div>
             </section>
 
@@ -56,8 +56,8 @@ function Home() {
                         </div>
                         <h4 className="ipad-text">Light. Bright. Full of might.</h4>
                         <div className="cta-links">
-                            <a href="/">Learn more ></a>
-                            <a href="/">Buy ></a>
+                            <a href="/">Learn more </a>
+                            <a href="/">Buy </a>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,8 @@ function Home() {
                     <div className="homepage-section-five">
                         <h4 className="iphone-text">Your new superpower.</h4>
                         <div className="cta-links-iphone">
-                            <a href="/">Learn more ></a>
-                            <a href="/">Buy ></a>
+                            <a href="/">Learn more </a>
+                            <a href="/">Buy </a>
                         </div>
                     </div>
                 </div>
@@ -76,8 +76,8 @@ function Home() {
                     <div className="homepage-section-six">
                         <h4 className="iphone-text">A sight to be bold.</h4>
                         <div className="cta-links-iphone">
-                            <a href="/">Learn more ></a>
-                            <a href="/">Buy ></a>
+                            <a href="/">Learn more </a>
+                            <a href="/">Buy </a>
                         </div>
                     </div>
                 </div>
@@ -86,8 +86,8 @@ function Home() {
                     <div className="homepage-section-seven">
                         <h4 className="iphone-text">Empower station.</h4>
                         <div className="cta-links-iphone">
-                            <a href="/">Learn more ></a>
-                            <a href="/">Buy ></a>
+                            <a href="/">Learn more </a>
+                            <a href="/">Buy</a>
                         </div>
                     </div>
                 </div>
